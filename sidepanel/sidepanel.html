@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sidepanel.css" />
+  </head>
+  <body>
+    <h1>window.ai</h1>
+    <textarea id="input" placeholder="Type here your prompt..."></textarea>
+    <div class="button-container">
+      <button id="sendPrompt">
+        Send
+      </button>
+    </div>
+    <textarea id="output" disabled placeholder="...and press send to see the result here."></textarea>
+    <div class="button-container">
+      <button id="copyResponse">
+        Copy response
+      </button>
+      <button id="clearSession">
+        Clear session
+      </button>
+    </div>
+    <script src="./sidepanel.js" type="module"></script>
+  </body>
+</html>

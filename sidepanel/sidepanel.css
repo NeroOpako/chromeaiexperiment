@@ -1,0 +1,58 @@
+:root {
+    --button-color: #deb8a1;
+    --text-color: #f0dfd7;
+    --background-color: #503424;
+    --background-dark-color: #382414;
+    --button-hover-color: #614a3b;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 1vh;
+}
+
+
+.button-container {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1vw;
+}
+
+button {
+    background-color: #382414;
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5em;
+    width: 100%;
+    flex: 1;
+}
+
+button:hover {
+    background-color:  var(--button-hover-color);
+}
+
+#input, #output {
+    background-color: transparent;
+    border: 3px solid var(--background-dark-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    width: 80%;
+    height: 500px;
+    font-size: 3em;
+    resize: none;
+}
